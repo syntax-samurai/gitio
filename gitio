@@ -14,7 +14,7 @@
 # ▟▒░░░░░░░▜▙▜████████████████████████████████▛
 # ▜▒░░░░░░░▟▛▟▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▛
 #         ▜▛
-# xero / syntax-samurai <http://git.io/gitio>
+# xero / syntax-samurai <http://git.io/gitio.sh>
 
 URLREGX='(https?|http)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
 GHURL=
