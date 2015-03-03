@@ -9,7 +9,7 @@
   ░░░░░  ░░    ░░  ░░ ░░  ░░░░░░
 
  create short / vanity github urls
- xero / syntax-samurai <http://git.io/gitio>
+ xero / syntax-samurai <http://git.io/gitio.sh>
 
          ▟▙
  ▟▒░░░░░░░▜▙▜████████████████████████████████▛
