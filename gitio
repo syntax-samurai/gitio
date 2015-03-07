@@ -16,10 +16,6 @@
 #         ▜▛
 # xero / syntax-samurai <http://git.io/gitio.sh>
 
-URLREGX='(https?|http)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
-GHURL=
-VANITY=
-
 usage () {
     cat <<EOF
 
@@ -44,24 +40,24 @@ err() {
 }
 
 optstest() {
-	FOUND=0
-	for var in "$@"
+	found=0
+	for arg in "$@"
 	do
-		if [[ $var =~ $URLREGX ]]
+		if echo $arg | awk -F/ '{print $3}' | grep -Eq "github.com"
 		then
-			GHURL=$var
-			FOUND=1
-		elif [[ $var == "-h" ]]
+			GHURL=$arg
+			found=1
+		elif [ $arg = "-h" ]
 		then
 			usage
-		elif [[ $var == "-v" ]]
+		elif [ $arg = "-v" ]
 		then
-			X=
+			:
 		else
-			VANITY=$var
+			VANITY=$arg
 		fi
 	done
-	if (( FOUND == 0 ))
+	if [ $found = 0 ]
 	then
 		err " must be a valid github.com url!"
 	fi
