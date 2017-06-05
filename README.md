@@ -26,7 +26,7 @@
 
 ---------------------------------------------------
 
-###examples
+### examples
 
  - `gitio https://github.com/syntax-samurai`
  	- http://git.io/xoSi
@@ -36,3 +36,5 @@
  	- http://git.io/xr
  - `gitio https://github.com/xero?tab=activity -v xeros_activity`
  	- http://git.io/xeros_activity
+ - `gitio https://xero.github.io -v x0`
+ 	- http://git.io/x0
