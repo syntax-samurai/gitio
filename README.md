@@ -29,12 +29,12 @@
 ### examples
 
  - `gitio https://github.com/syntax-samurai`
- 	- http://git.io/xoSi
+ 	- https://git.io/xoSi
  - `gitio https://github.com/xero -v xero`
- 	- http://git.io/xero
+ 	- https://git.io/xero
  - `gitio -v xr https://github.com/xero?tab=repositories`
- 	- http://git.io/xr
+ 	- https://git.io/xr
  - `gitio https://github.com/xero?tab=activity -v xeros_activity`
- 	- http://git.io/xeros_activity
+ 	- https://git.io/xeros_activity
  - `gitio https://xero.github.io -v x0`
- 	- http://git.io/x0
+ 	- https://git.io/x0
